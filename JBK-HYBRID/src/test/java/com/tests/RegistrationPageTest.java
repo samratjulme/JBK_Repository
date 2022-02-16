@@ -4,13 +4,11 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import com.base.BaseClass;
-import com.listeners.ListenerEx;
 import com.pages.LoginPage;
 import com.pages.RegistrationPage;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Listeners;
 
 import java.util.List;
 
@@ -18,7 +16,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.SkipException;
 
-@Listeners(ListenerEx.class)
+//@Listeners(ListenerEx.class)
 public class RegistrationPageTest extends BaseClass{
   
 	LoginPage lp;
@@ -30,7 +28,7 @@ public class RegistrationPageTest extends BaseClass{
     	 log.info("RegPage BeforeClass");
     	 browserInitialization();
     	 urlEntering();
-    	 reportInitialization();
+    	 //reportInitialization();
     	 lp = new LoginPage(driver);
     	 rp = lp.RegisterMembershipClickable();
     }
@@ -38,7 +36,7 @@ public class RegistrationPageTest extends BaseClass{
     @AfterClass
     public void AfetrClass_RegPage() {
 	  log.info("RegPage AfetrClass");
-	  report.flush();
+	  //report.flush();
 	  driver.close();
     }
     

@@ -4,7 +4,6 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import com.base.BaseClass;
-import com.listeners.ListenerEx;
 import com.pages.LoginPage;
 
 import org.testng.Assert;
@@ -13,9 +12,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Listeners;
 
-@Listeners(ListenerEx.class)
+//@Listeners(ListenerEx.class)
 public class LoginPageTest extends BaseClass{
 	
 	
@@ -38,7 +36,7 @@ public class LoginPageTest extends BaseClass{
 	  log.info("LoginPage BeforeClass");
 	  browserInitialization();
 	  urlEntering();
-	  reportInitialization();
+	  //reportInitialization();
 	  lp = new LoginPage(driver);
     }
     
