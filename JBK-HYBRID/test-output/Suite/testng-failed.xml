@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.listeners.ListenerEx"/>
+  </listeners>
+  <test thread-count="5" name="loginpage(failed)">
+    <classes>
+      <class name="com.tests.LoginPageTest">
+        <methods>
+          <include name="BeforeClassLoginPage"/>
+          <include name="AfetrClass_LoginPage"/>
+          <include name="verify_LoginPage_Scenario"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tests.LoginPageTest -->
+      <class name="com.tests.RegistrationPageTest">
+        <methods>
+          <include name="verify_RegPage_Scenario"/>
+          <include name="AfetrClass_RegPage"/>
+          <include name="BeforelassRegPage"/>
+        </methods>
+      </class> <!-- com.tests.RegistrationPageTest -->
+    </classes>
+  </test> <!-- loginpage(failed) -->
+</suite> <!-- Failed suite [Suite] -->
