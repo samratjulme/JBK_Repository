@@ -1,105 +1,63 @@
-2022-02-16 13:01:45,482  INFO [main] BaseClass:25 - LoginPage BeforeSuite
-2022-02-16 13:01:45,482  INFO [main] BaseClass:59 - Initializing Report
-2022-02-16 13:01:45,607  INFO [main] BaseClass:37 - LoginPage BeforeClass
-2022-02-16 13:01:45,607  INFO [main] BaseClass:29 - Initializing browser from BaseClass
-2022-02-16 13:01:45,607  INFO [main] BaseClass:14 - Reading properties file for key ==>>browser
-2022-02-16 13:01:45,607  INFO [main] BaseClass:25 - value assigned to key is found as==>>chrome
-2022-02-16 13:01:47,252  INFO [main] BaseClass:46 - maximizing browser window
-2022-02-16 13:01:47,368  INFO [main] BaseClass:49 - deleting all cookies
-2022-02-16 13:01:47,384  INFO [main] BaseClass:54 - Entering url
-2022-02-16 13:01:47,384  INFO [main] BaseClass:14 - Reading properties file for key ==>>url
-2022-02-16 13:01:47,384  INFO [main] BaseClass:25 - value assigned to key is found as==>>file:///D:/javasoft/All/Unzip%20Files/javabykiran-Selenium-Softwares/Offline%20Website/index.html
-2022-02-16 13:01:49,221  INFO [main] BaseClass:59 - Initializing Report
-2022-02-16 13:01:49,271  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_LoginPage_CorrectCredential
-2022-02-16 13:01:49,271  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_LoginPage_CorrectCredential
-2022-02-16 13:01:51,106  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_LoginPage_CorrectCredential
-2022-02-16 13:01:51,114  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_LoginPage_CorrectCredential
-2022-02-16 13:01:51,114  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_LoginPage_Invalid_EmailError
-2022-02-16 13:01:51,114  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_LoginPage_Invalid_EmailError
-2022-02-16 13:01:51,463  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_LoginPage_Invalid_EmailError
-2022-02-16 13:01:51,463  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_LoginPage_Invalid_EmailError
-2022-02-16 13:01:51,463  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_LoginPage_JBKLogo
-2022-02-16 13:01:51,466  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_LoginPage_JBKLogo
-2022-02-16 13:01:51,546  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_LoginPage_JBKLogo
-2022-02-16 13:01:51,546  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_LoginPage_JBKLogo
-2022-02-16 13:01:51,546  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_LoginPage_JBKName
-2022-02-16 13:01:51,546  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_LoginPage_JBKName
-2022-02-16 13:01:51,588  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_LoginPage_JBKName
-2022-02-16 13:01:51,588  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_LoginPage_JBKName
-2022-02-16 13:01:51,588  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_LoginPage_NoData_Error
-2022-02-16 13:01:51,588  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_LoginPage_NoData_Error
-2022-02-16 13:01:51,990  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_LoginPage_NoData_Error
-2022-02-16 13:01:51,990  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_LoginPage_NoData_Error
-2022-02-16 13:01:51,990  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_LoginPage_RegisterMembershipClickable
-2022-02-16 13:01:51,990  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_LoginPage_RegisterMembershipClickable
-2022-02-16 13:01:52,203  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_LoginPage_RegisterMembershipClickable
-2022-02-16 13:01:52,203  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_LoginPage_RegisterMembershipClickable
-2022-02-16 13:01:52,206  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_LoginPage_RegisterMembershipText
-2022-02-16 13:01:52,207  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_LoginPage_RegisterMembershipText
-2022-02-16 13:01:52,246  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_LoginPage_RegisterMembershipText
-2022-02-16 13:01:52,246  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_LoginPage_RegisterMembershipText
-2022-02-16 13:01:52,246  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_LoginPage_Scenario
-2022-02-16 13:01:52,246  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_LoginPage_Scenario
-2022-02-16 13:01:52,253  INFO [main] BaseClass:34 - Skipped Testcase name ==>verify_LoginPage_Scenario
-2022-02-16 13:01:52,256  INFO [main] BaseClass:34 - Skipped Testcase name ==>verify_LoginPage_Scenario
-2022-02-16 13:01:52,256  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_LoginPage_StartSessionText
-2022-02-16 13:01:52,256  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_LoginPage_StartSessionText
-2022-02-16 13:01:52,285  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_LoginPage_StartSessionText
-2022-02-16 13:01:52,286  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_LoginPage_StartSessionText
-2022-02-16 13:01:52,287  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_LoginPage_Title
-2022-02-16 13:01:52,287  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_LoginPage_Title
-2022-02-16 13:01:52,296  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_LoginPage_Title
-2022-02-16 13:01:52,296  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_LoginPage_Title
-2022-02-16 13:01:52,296  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_LoginPage_WrongEmail_WrongPassword
-2022-02-16 13:01:52,296  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_LoginPage_WrongEmail_WrongPassword
-2022-02-16 13:01:52,716  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_LoginPage_WrongEmail_WrongPassword
-2022-02-16 13:01:52,716  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_LoginPage_WrongEmail_WrongPassword
-2022-02-16 13:01:52,716  INFO [main] BaseClass:46 - LoginPage AfetrClass
-2022-02-16 13:01:52,798  INFO [main] BaseClass:30 - RegPage BeforeClass
-2022-02-16 13:01:52,798  INFO [main] BaseClass:29 - Initializing browser from BaseClass
-2022-02-16 13:01:52,798  INFO [main] BaseClass:14 - Reading properties file for key ==>>browser
-2022-02-16 13:01:52,798  INFO [main] BaseClass:25 - value assigned to key is found as==>>chrome
-2022-02-16 13:01:53,934  INFO [main] BaseClass:46 - maximizing browser window
-2022-02-16 13:01:54,071  INFO [main] BaseClass:49 - deleting all cookies
-2022-02-16 13:01:54,087  INFO [main] BaseClass:54 - Entering url
-2022-02-16 13:01:54,087  INFO [main] BaseClass:14 - Reading properties file for key ==>>url
-2022-02-16 13:01:54,087  INFO [main] BaseClass:25 - value assigned to key is found as==>>file:///D:/javasoft/All/Unzip%20Files/javabykiran-Selenium-Softwares/Offline%20Website/index.html
-2022-02-16 13:01:55,555  INFO [main] BaseClass:59 - Initializing Report
-2022-02-16 13:01:55,669  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_RegPage_AlreadyMembership_Clickable
-2022-02-16 13:01:55,669  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_RegPage_AlreadyMembership_Clickable
-2022-02-16 13:01:55,825  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_RegPage_AlreadyMembership_Clickable
-2022-02-16 13:01:55,825  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_RegPage_AlreadyMembership_Clickable
-2022-02-16 13:01:55,825  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_RegPage_AlreadyMembership_Text
-2022-02-16 13:01:55,825  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_RegPage_AlreadyMembership_Text
-2022-02-16 13:01:55,850  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_RegPage_AlreadyMembership_Text
-2022-02-16 13:01:55,850  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_RegPage_AlreadyMembership_Text
-2022-02-16 13:01:55,850  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_RegPage_Form_AllError
-2022-02-16 13:01:55,850  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_RegPage_Form_AllError
-2022-02-16 13:01:56,005  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_RegPage_Form_AllError
-2022-02-16 13:01:56,005  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_RegPage_Form_AllError
-2022-02-16 13:01:56,005  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_RegPage_JBKText
-2022-02-16 13:01:56,013  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_RegPage_JBKText
-2022-02-16 13:01:56,051  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_RegPage_JBKText
-2022-02-16 13:01:56,051  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_RegPage_JBKText
-2022-02-16 13:01:56,051  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_RegPage_PopUp_Text
-2022-02-16 13:01:56,051  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_RegPage_PopUp_Text
-2022-02-16 13:01:56,548  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_RegPage_PopUp_Text
-2022-02-16 13:01:56,548  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_RegPage_PopUp_Text
-2022-02-16 13:01:56,548  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_RegPage_RegisterMembershipText
-2022-02-16 13:01:56,548  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_RegPage_RegisterMembershipText
-2022-02-16 13:01:56,581  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_RegPage_RegisterMembershipText
-2022-02-16 13:01:56,581  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_RegPage_RegisterMembershipText
-2022-02-16 13:01:56,581  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_RegPage_Scenario
-2022-02-16 13:01:56,581  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_RegPage_Scenario
-2022-02-16 13:01:56,581  INFO [main] BaseClass:34 - Skipped Testcase name ==>verify_RegPage_Scenario
-2022-02-16 13:01:56,581  INFO [main] BaseClass:34 - Skipped Testcase name ==>verify_RegPage_Scenario
-2022-02-16 13:01:56,581  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_RegPage_Successful_PopUp_Handled
-2022-02-16 13:01:56,581  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_RegPage_Successful_PopUp_Handled
-2022-02-16 13:01:57,040  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_RegPage_Successful_PopUp_Handled
-2022-02-16 13:01:57,040  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_RegPage_Successful_PopUp_Handled
-2022-02-16 13:01:57,040  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_RegPage_Title
-2022-02-16 13:01:57,040  INFO [main] BaseClass:15 - Start Testcase with name as ==>verify_RegPage_Title
-2022-02-16 13:01:57,040  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_RegPage_Title
-2022-02-16 13:01:57,040  INFO [main] BaseClass:21 - Passed Testcase name ==>verify_RegPage_Title
-2022-02-16 13:01:57,040  INFO [main] BaseClass:40 - RegPage AfetrClass
-2022-02-16 13:01:57,398  INFO [main] BaseClass:31 - LoginPage AfetrSuite
+2022-02-16 23:58:47,886  INFO [main] BaseClass:24 - LoginPage BeforeSuite
+2022-02-16 23:58:47,887  INFO [main] BaseClass:59 - Initializing Report
+2022-02-16 23:58:48,068  INFO [main] BaseClass:36 - LoginPage BeforeClass
+2022-02-16 23:58:48,068  INFO [main] BaseClass:29 - Initializing browser from BaseClass
+2022-02-16 23:58:48,069  INFO [main] BaseClass:14 - Reading properties file for key ==>>browser
+2022-02-16 23:58:48,070  INFO [main] BaseClass:25 - value assigned to key is found as==>>chrome
+2022-02-16 23:58:49,703  INFO [main] BaseClass:46 - maximizing browser window
+2022-02-16 23:58:49,834  INFO [main] BaseClass:49 - deleting all cookies
+2022-02-16 23:58:49,851  INFO [main] BaseClass:54 - Entering url
+2022-02-16 23:58:49,851  INFO [main] BaseClass:14 - Reading properties file for key ==>>url
+2022-02-16 23:58:49,853  INFO [main] BaseClass:25 - value assigned to key is found as==>>file:///D:/javasoft/All/Unzip%20Files/javabykiran-Selenium-Softwares/Offline%20Website/index.html
+2022-02-16 23:58:54,117  INFO [main] BaseClass:14 - Start Testcase with name as ==>verify_LoginPage_CorrectCredential
+2022-02-16 23:59:08,075  INFO [main] BaseClass:20 - Passed Testcase name ==>verify_LoginPage_CorrectCredential
+2022-02-16 23:59:08,080  INFO [main] BaseClass:14 - Start Testcase with name as ==>verify_LoginPage_Invalid_EmailError
+2022-02-16 23:59:08,446  INFO [main] BaseClass:20 - Passed Testcase name ==>verify_LoginPage_Invalid_EmailError
+2022-02-16 23:59:08,448  INFO [main] BaseClass:14 - Start Testcase with name as ==>verify_LoginPage_JBKLogo
+2022-02-16 23:59:08,529  INFO [main] BaseClass:20 - Passed Testcase name ==>verify_LoginPage_JBKLogo
+2022-02-16 23:59:08,531  INFO [main] BaseClass:14 - Start Testcase with name as ==>verify_LoginPage_JBKName
+2022-02-16 23:59:08,567  INFO [main] BaseClass:20 - Passed Testcase name ==>verify_LoginPage_JBKName
+2022-02-16 23:59:08,570  INFO [main] BaseClass:14 - Start Testcase with name as ==>verify_LoginPage_NoData_Error
+2022-02-16 23:59:08,923  INFO [main] BaseClass:20 - Passed Testcase name ==>verify_LoginPage_NoData_Error
+2022-02-16 23:59:08,928  INFO [main] BaseClass:14 - Start Testcase with name as ==>verify_LoginPage_RegisterMembershipClickable
+2022-02-16 23:59:09,151  INFO [main] BaseClass:20 - Passed Testcase name ==>verify_LoginPage_RegisterMembershipClickable
+2022-02-16 23:59:09,152  INFO [main] BaseClass:14 - Start Testcase with name as ==>verify_LoginPage_RegisterMembershipText
+2022-02-16 23:59:09,199  INFO [main] BaseClass:20 - Passed Testcase name ==>verify_LoginPage_RegisterMembershipText
+2022-02-16 23:59:09,201  INFO [main] BaseClass:14 - Start Testcase with name as ==>verify_LoginPage_Scenario
+2022-02-16 23:59:09,205  INFO [main] BaseClass:33 - Skipped Testcase name ==>verify_LoginPage_Scenario
+2022-02-16 23:59:09,207  INFO [main] BaseClass:14 - Start Testcase with name as ==>verify_LoginPage_StartSessionText
+2022-02-16 23:59:09,250  INFO [main] BaseClass:20 - Passed Testcase name ==>verify_LoginPage_StartSessionText
+2022-02-16 23:59:09,253  INFO [main] BaseClass:14 - Start Testcase with name as ==>verify_LoginPage_Title
+2022-02-16 23:59:09,266  INFO [main] BaseClass:20 - Passed Testcase name ==>verify_LoginPage_Title
+2022-02-16 23:59:09,268  INFO [main] BaseClass:14 - Start Testcase with name as ==>verify_LoginPage_WrongEmail_WrongPassword
+2022-02-16 23:59:09,665  INFO [main] BaseClass:20 - Passed Testcase name ==>verify_LoginPage_WrongEmail_WrongPassword
+2022-02-16 23:59:09,666  INFO [main] BaseClass:45 - LoginPage AfetrClass
+2022-02-16 23:59:09,738  INFO [main] BaseClass:28 - RegPage BeforeClass
+2022-02-16 23:59:09,738  INFO [main] BaseClass:29 - Initializing browser from BaseClass
+2022-02-16 23:59:09,739  INFO [main] BaseClass:14 - Reading properties file for key ==>>browser
+2022-02-16 23:59:09,740  INFO [main] BaseClass:25 - value assigned to key is found as==>>chrome
+2022-02-16 23:59:10,807  INFO [main] BaseClass:46 - maximizing browser window
+2022-02-16 23:59:10,932  INFO [main] BaseClass:49 - deleting all cookies
+2022-02-16 23:59:10,950  INFO [main] BaseClass:54 - Entering url
+2022-02-16 23:59:10,950  INFO [main] BaseClass:14 - Reading properties file for key ==>>url
+2022-02-16 23:59:10,952  INFO [main] BaseClass:25 - value assigned to key is found as==>>file:///D:/javasoft/All/Unzip%20Files/javabykiran-Selenium-Softwares/Offline%20Website/index.html
+2022-02-16 23:59:14,489  INFO [main] BaseClass:14 - Start Testcase with name as ==>verify_RegPage_AlreadyMembership_Clickable
+2022-02-16 23:59:14,732  INFO [main] BaseClass:20 - Passed Testcase name ==>verify_RegPage_AlreadyMembership_Clickable
+2022-02-16 23:59:14,735  INFO [main] BaseClass:14 - Start Testcase with name as ==>verify_RegPage_AlreadyMembership_Text
+2022-02-16 23:59:14,779  INFO [main] BaseClass:20 - Passed Testcase name ==>verify_RegPage_AlreadyMembership_Text
+2022-02-16 23:59:14,780  INFO [main] BaseClass:14 - Start Testcase with name as ==>verify_RegPage_Form_AllError
+2022-02-16 23:59:14,940  INFO [main] BaseClass:20 - Passed Testcase name ==>verify_RegPage_Form_AllError
+2022-02-16 23:59:14,941  INFO [main] BaseClass:14 - Start Testcase with name as ==>verify_RegPage_JBKText
+2022-02-16 23:59:14,970  INFO [main] BaseClass:20 - Passed Testcase name ==>verify_RegPage_JBKText
+2022-02-16 23:59:14,971  INFO [main] BaseClass:14 - Start Testcase with name as ==>verify_RegPage_PopUp_Text
+2022-02-16 23:59:15,440  INFO [main] BaseClass:20 - Passed Testcase name ==>verify_RegPage_PopUp_Text
+2022-02-16 23:59:15,442  INFO [main] BaseClass:14 - Start Testcase with name as ==>verify_RegPage_RegisterMembershipText
+2022-02-16 23:59:15,471  INFO [main] BaseClass:20 - Passed Testcase name ==>verify_RegPage_RegisterMembershipText
+2022-02-16 23:59:15,472  INFO [main] BaseClass:14 - Start Testcase with name as ==>verify_RegPage_Scenario
+2022-02-16 23:59:15,474  INFO [main] BaseClass:33 - Skipped Testcase name ==>verify_RegPage_Scenario
+2022-02-16 23:59:15,477  INFO [main] BaseClass:14 - Start Testcase with name as ==>verify_RegPage_Successful_PopUp_Handled
+2022-02-16 23:59:15,911  INFO [main] BaseClass:20 - Passed Testcase name ==>verify_RegPage_Successful_PopUp_Handled
+2022-02-16 23:59:15,913  INFO [main] BaseClass:14 - Start Testcase with name as ==>verify_RegPage_Title
+2022-02-16 23:59:15,917  INFO [main] BaseClass:20 - Passed Testcase name ==>verify_RegPage_Title
+2022-02-16 23:59:15,917  INFO [main] BaseClass:38 - RegPage AfetrClass
+2022-02-16 23:59:16,014  INFO [main] BaseClass:30 - LoginPage AfetrSuite

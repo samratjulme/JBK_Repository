@@ -4,7 +4,7 @@
   <listeners>
     <listener class-name="com.listeners.ListenerEx"/>
   </listeners>
-  <test thread-count="5" name="loginpage(failed)">
+  <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="com.tests.LoginPageTest">
         <methods>
@@ -23,5 +23,5 @@
         </methods>
       </class> <!-- com.tests.RegistrationPageTest -->
     </classes>
-  </test> <!-- loginpage(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
